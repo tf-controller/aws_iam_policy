@@ -5,4 +5,4 @@ init:
 
 .PHONY: publish-oci
 publish-oci:
-	./publish-oci.sh v1
+	bash -x ./publish-oci.sh v1
